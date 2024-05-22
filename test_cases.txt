@@ -1,0 +1,85 @@
+Authentication Page:
+● Get ID, Password:
+1. Test case passed
+● Forgot password
+1. Test case passed
+2. Test case passed
+● Authentication
+1. Test case passed
+2. Test case passed
+3. Test case passed
+● Get password from user DB
+1. Test case passed
+● Send to Email/ID
+1. Test case passed
+● Student Start menu:
+1. Test case passed
+2. Test case passed
+3. Test case passed
+4. Test case passed
+5. Test case passed
+● Display Personal details -- here click on edit it is showing password also, should change that
+1. Test case passed
+2. Test case passed
+● Confirm changes
+1. Test case passed
+2. Test case passed
+3. Test case passed
+● Get new details
+1. Test case passed
+2. Test case passed
+● Update user DB
+1. Test case passed
+● Display Pod mates and facilities
+1. Test case passed
+2. Test case passed
+● Student Room Management
+1. Test case passed
+2. Test case passed
+3. Test case passed
+4. Test case passed
+● Display Announcements
+1. Test case passed
+● Get from Announcements DB
+1. Test case passed
+● Fill exchange form
+1. Test case passed
+2. Test case passed
+● Update Exchange DB
+1. Test case passed
+● Fill check in/out form
+1. Test case
+2. Test case
+● Update check-in/out DB:
+1. Test case
+● Give Rating
+1. Test case passed
+2. Test case passed
+3. Test case pased
+● Get Rating
+1. Test case passed
+● Update Hostel Block DB
+1. Test case passed
+● Allocate Room
+1. Test case passed
+● Get block details
+1. Test case
+2. Test case
+● Get no of floors
+1. Test case
+● Select floors
+1. Test case
+● Update hostel block DB
+1. Test case
+● Send allocated status
+1. Test case
+● Display tickets
+1. Test case
+● Create ticket
+1. Test case
+2. Test case
+● Fill ticket
+1. Test case
+2. Test case
+● Update complaints DB
+1. Test case

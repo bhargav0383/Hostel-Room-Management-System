@@ -1,0 +1,45 @@
+First Level Factored Modules
+ The first level of factored modules represents the highest level of abstraction, breaking down the system into its most significant components or functions based on the primary processes identified in the DFD. 
+ 
+Factored Input Modules 
+ Factored input modules are those that specifically deal with receiving and processing input from the system's users or external entities. These modules are responsible for capturing, validating, and forwarding input data to appropriate processing or transformation modules. 
+ 
+Factored Output Modules 
+ Output modules are responsible for sending data from the system to its users or other systems. This could be in the form of responses to queries, updates, notifications, or reports. 
+ 
+Factored Transform Modules
+  Transform modules are the core of the system, where the input is processed, and business logic is applied to produce the necessary outputs. These modules perform the necessary operations on the data to fulfill the system's functionalities.
+  
+Coordinate Modules:
+Definition: A coordinate module controls and manages the execution flow among other modules. It does not contain the detailed operations but instead, calls other modules that perform the necessary operations.
+
+Composite Modules:
+Definition: A composite module is a high-level module that is composed of other modules. It essentially acts as a container or a collection of lower-level modules. The functionality of a composite module is defined by the collective functionality of its sub-modules.
+
+
+
+
+
+2. *Logical Cohesion*: When elements are grouped logically that perform similar tasks or functions, but are not related to each other in any other way. For example, a module that handles all input regardless of its type.
+
+3. *Temporal Cohesion*: Elements are related by the fact that they are processed at the same time. For instance, initializations in a start-up routine have temporal cohesion.
+
+5. *Communicational Cohesion*: When elements are grouped because they operate on the same data (not necessarily performing the same operation), it shows communicational cohesion.
+
+6. *Sequential Cohesion*: This is a stronger form of cohesion where the output from one part of the module is the input to another part.
+
+7. *Functional Cohesion*: The strongest form of cohesion, functional cohesion occurs when every element of the module is essential to the performance of a single function.
+
+
+Fan-In:
+Display Personal Details - 2
+display tickets - 2
+
+
+Fan-out:
+StudentStartMenu - 5
+Get details from Hostel DB - 2
+Complaints - 2
+
+fan-In + Fan-Out:
+StudentStartMenu - 6
